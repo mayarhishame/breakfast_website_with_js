@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>breakfast resturant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/css.css" />
+</head>
+<body>
+    <div class="home">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#main"
+                aria-controls="main"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+              <!-- <i class="fa-solid fa-bars"></i>-->
+              </button>
+                 <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-5">
+                  <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3 mx-4" href="#Menu">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3 mx-4" href="#Combo">Combo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3 mx-4 " href="#Contact">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3 mx-4 " href="#Contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3 mx-4 " href="#admin">admin</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <p class="title pt-lg-5">We are Funny Flakes</p>
+          <p class="title1">and we love breakfast</p>
+          
+          <div class="home_photo">
+            <img src="img/d11.png" class="home_photo1">
+          </div>
+    </div>
+    <div>
+      <div class="menu mb-5" id="Menu">
+        <p class="header_menu">menu</p>
+        <p class="header_menu1">we have best breakfast you can ever find</p>
+        <div class="text-center justify-content-center">
+          <div >
+         
+            <input type="radio" name="type" value="breakfast" id="breakfast">
+            <label class="me-5" for="breakfast">breakfast</label>
+      
+       
+            <input class="ms-5" type="radio" name="type" value="dessert" id="dessert">
+            <label for="dessert">dessert</label>
+      
+        </div>
+        
+
+      <button id="btn" class="rounded-pill main-btn mt-3">Show</button>
+        </div>
+        
+      <p id="output"></p>
+      <div class="breakfast">
+        <div class="menu1">
+          <p class="menu_head">CEREALS & MILK</p>
+        </div>
+        <div class="row text-center">
+          <div class="menu2 col-md-6 col-lg-6">
+
+
+            <h4 class="h_main mb-3 mt-3" >CEREALS</h4>
+            <input type="checkbox" id="food1" name="food" value="5">
+            <label for="food1"> Oatmeal cereal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5$ </label><br>
+            <input type="checkbox" id="food2" name="food" value="20">
+            <label for="food2"> Hazelnut cereal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20$</label><br>
+            <input type="checkbox" id="food3" name="food" value="8">
+            <label for="food3"> Rice Cereal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8$</label><br>
+            <input type="checkbox" id="food4" name="food" value="19">
+            <label for="food4"> Integral Cereal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19$</label><br>
+            <input type="checkbox" id="food5" name="food" value="25">
+            <label for="food5"> Chocolate Cereal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25$</label><br>
+            <input type="checkbox" id="food6" name="food" value="40">
+            <label for="food6"> Raspberry cereal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 40$</label><br>
+         </div>
+
+         
+
+         <div class="menu2 col-md-6 col-lg-6">
+          <h4 class="h_main mb-3 mt-3" >MILK</h4>
+          <input type="checkbox" id="food7" name="food" value="5">
+          <label for="food1"> Almond milk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5$ </label><br>
+          <input type="checkbox" id="food8" name="food" value="20">
+          <label for="food2"> Hazelnut milk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20$</label><br>
+          <input type="checkbox" id="food9" name="food" value="8 ">
+          <label for="food3"> Almond milk  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8$</label><br>
+          <input type="checkbox" id="food10" name="food" value=" 19">
+          <label for="food4">  Oat milk &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19$</label><br>
+          <input type="checkbox" id="food11" name="food" value="25">
+          <label for="food5"> Cocoa milk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25$</label><br>
+          <input type="checkbox" id="food12" name="food" value="40">
+          <label for="food6"> White milk &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 40$</label><br>
+       </div>
+        </div>
+      </div>
+
+      <div class="dessert">
+        <div class="menu1">
+          <p class="menu_head">dessert</p>
+        </div>
+        <div class=" m-5 ps-5"><input type="checkbox" id="food13" name="food" value="5">
+          <label for="food1"> Chocolate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5$ </label><br>
+          <input type="checkbox" id="food14" name="food" value="8">
+          <label for="food2"> biscute &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8$</label><br>
+          <input type="checkbox" id="food15" name="food" value="10 ">
+          <label for="food3"> corn flex  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10$</label><br></div>
+        
+          
+      </div>
+      <div class="sure align-items-center text-center">
+        <h2>do you sure to buy this products ?</h2>
+        <p id="price"></p>
+        <button id="tosure" class="sal btn rounded-pill main-btn">yes</button>
+        <button id="no" class="sal btn rounded-pill main-btn">no</button>
+        
+      </div>
+        <hr class="line">
+        <p align="center" style="color:#1D4C8B">IF YOU WANT, YOU CAN EXCHANGE MILK FOR YOGHOURT</p>
+        <div class="row menu2 text-center">
+          <div class="col-md-6 col-lg-3">
+            <span>YOGHOURT</span>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <input type="checkbox" id="food16" name="food" value="20">
+            <label for="food5"> Peach &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20$&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <input type="checkbox" id="food17" name="food" value="5">
+            <label for="food6">  Vanilla &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 5$&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <input type="checkbox" id="food18" name="food" value="4">
+            <label for="food6"> Strawberry &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 4$&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          </div>
+      </div>
+      
+      <hr class="line">
+      <div class="d-flex justify-content-center mt-5 mb-5">
+        <button id="sal" class="sal btn rounded-pill main-btn">buy</button>
+      </div>
+        
+
+      </div>
+    </div>
+    
+
+     <div class="combo pt-5 align-items-center text-center pb-5" id="Combo">
+      <h1 class="header_combo">combos</h1>
+      <p>We have the Funny Flakes perfect combos.</p>
+      <p class="mb-5">Chose your best option</p>
+      <div class="combo-sure align-items-center text-center">
+        <h2>do you sure to buy combo 1 ?</h2>
+        <p >his price 60$</p>
+        <button id="combo-tosure" class="sal btn rounded-pill main-btn">yes</button>
+        <button id="combo-no" class="sal btn rounded-pill main-btn">no</button>
+        
+      </div>
+      <div class="combo_offer row">
+        <div class="combo2 col-lg-3 ms-lg-5">
+          <h2>COMBO 1</h2>
+          <p>OATMEAL WITH MILK</p>
+          <p>OPTIONAL FRUITS</p>
+          <p>-</p>
+          <p>OPTIONAL EXCHANGE </p>
+          <p>MILK FOR YOGHOURT </p>
+          <p>-</p>
+          <p>CHEESECAKE</p>
+          <p>60$</p>
+          <button id="combo_buy" class=" btn rounded-pill main-btn">buy</button>
+        </div>
+        <div class="combo2 col-lg-3 ms-lg-5  ">
+          <h2>COMBO 2</h2>
+          <p>CHOCOLATE CEREAL</p>
+          <p>WITH COCOA MILK</p>
+          <p>-</p>
+          <p>OPTIONAL RASPBERRY</p>
+          <p>TOPPING AGGREGATE</p>
+          <p>-</p>
+          <p>BANANA MUFFIN</p>
+          <p>70$</p>
+          <button id="combo_buy2" class=" btn rounded-pill main-btn">buy</button>
+        </div>
+        <div class="combo2 col-lg-3 ms-lg-5   ">
+          <h2>COMBO 3 </h2>
+          <p>ALMOND CEREAL</p>
+          <p>WITH OAT MILK</p>
+          <p>-</p>
+          <p>OPTIONAL FRUIT </p>
+          <p>OR HAZELNUT CEREALS</p>
+          <p>-</p>
+          <p>VEGAN CHOCOLATE CAKE</p>
+          <p>90$</p>
+          <button id="combo_buy3" class=" btn rounded-pill main-btn">buy</button>
+        </div>
+      </div>
+      
+     </div>
+     <div class="row m-5 text-center" id="Contact">
+      <div class="col-md-6 col-lg-3">
+        <p class="mt-5">HERE WE ARE</p>
+        <p>358 West 58th.</p>
+        <p>Street, 10019</p>
+     </div>
+      <div class="col-md-6 col-lg-3">
+        <p class="mt-5">WE ARE OPEN</p>
+        <p>every day from</p>
+        <p>8 a.m. to 10 p.m.</p>
+     </div>
+      <div class="col-md-6 col-lg-3">
+        <p class="mt-5">CALL US</p>
+        <p>+910115039944448</p>
+     </div>
+      <div class="col-md-6 col-lg-3">
+        <p class="mt-5">SAY HELLO</p>
+        <p>hello@funnyflakes.com</p>
+     </div>
+     </div>
+
+     <div class="mb-0" id="admin">
+      <div class="row align-items-center text-center m-5 p-5">
+        <div class="col-md-6 col-lg-6 align-items-center">
+          <h1>to change setting </h1> 
+        </div>
+        <div class="col-md-6 col-lg-6 align-items-center">
+          <button class="dis"><i class="fa-solid fa-circle-down"></i></button>
+          <button class="hid"><i class="fa-solid fa-circle-up"></i></button>
+        </div>
+       </div>
+       <div class="admin p-5">
+        <h2 class="m-5 mb-1 ">choose the color :</h2>
+      <ul class="colors">
+          <li class="active" data-color="#F5D1C9"></li>
+          <li data-color="deeppink"></li>
+          <li data-color="palevioletred"></li>
+          <li data-color="pink"></li>
+        </ul>
+        <h2 class="m-5 mb-1">choose the font :</h2>
+        <div class="fonts mb-5 mt-5">
+             <button class="font1">font</button>
+             <button class="font2">font</button>
+             <button class="font3">font</button>
+             <button class="font4">font</button>
+        </div>
+       </div>
+     </div>
+     
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="java.js"></script>
+    
+</body>
+</html>
